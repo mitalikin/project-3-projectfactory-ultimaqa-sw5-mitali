@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Click On SignInLink:[[ChromeDriver: chrome on WINDOWS (19a7bbeb5af971b930e42d8f1368ea90)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+    </line>
+    <line>
+      <![CDATA[Verify Text Message: [[ChromeDriver: chrome on WINDOWS (19a7bbeb5af971b930e42d8f1368ea90)] -> xpath: //h2[contains(text(),'Welcome Back!')]]]]>
+    </line>
+    <line>
+      <![CDATA[Click On SignInLink:[[ChromeDriver: chrome on WINDOWS (ece1b423f6e1f4d87564dc13820e1512)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+    </line>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="41380" started-at="2022-12-13T21:10:43 GMT" finished-at="2022-12-13T21:11:25 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTest.userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimaqa.courses.testsuite.HomePageTest@18bf3d14]" name="userShouldNavigateToLoginPageSuccessfully" class="com.ultimaqa.courses.testsuite.HomePageTest"/>
+        <method signature="LoginPageTest.verifyTheErrorMessage()[pri:0, instance:com.ultimaqa.courses.testsuite.LoginPageTest@31f924f5]" name="verifyTheErrorMessage" class="com.ultimaqa.courses.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyTheErrorMessage()[pri:0, instance:com.ultimaqa.courses.testsuite.LoginPageTest@31f924f5]" name="verifyTheErrorMessage" class="com.ultimaqa.courses.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="HomePageTest.userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimaqa.courses.testsuite.HomePageTest@18bf3d14]" name="userShouldNavigateToLoginPageSuccessfully" class="com.ultimaqa.courses.testsuite.HomePageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Login Test" duration-ms="41380" started-at="2022-12-13T21:10:43 GMT" finished-at="2022-12-13T21:11:25 GMT">
+      <class name="com.ultimaqa.courses.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimaqa.courses.testsuite.LoginPageTest@31f924f5]" name="setUp" is-config="true" duration-ms="8406" started-at="2022-12-13T21:11:08 GMT" finished-at="2022-12-13T21:11:17 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.ultimaqa.courses.testsuite.LoginPageTest@31f924f5]" name="inIt" is-config="true" duration-ms="7" started-at="2022-12-13T21:11:17 GMT" finished-at="2022-12-13T21:11:17 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheErrorMessage()[pri:0, instance:com.ultimaqa.courses.testsuite.LoginPageTest@31f924f5]" name="verifyTheErrorMessage" duration-ms="6953" started-at="2022-12-13T21:11:17 GMT" finished-at="2022-12-13T21:11:23 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click On SignInLink:[[ChromeDriver: chrome on WINDOWS (ece1b423f6e1f4d87564dc13820e1512)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimaqa.courses.testsuite.LoginPageTest@31f924f5]" name="tearDown" is-config="true" duration-ms="1355" started-at="2022-12-13T21:11:23 GMT" finished-at="2022-12-13T21:11:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ultimaqa.courses.testsuite.LoginPageTest -->
+      <class name="com.ultimaqa.courses.testsuite.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ultimaqa.courses.testsuite.HomePageTest@18bf3d14]" name="setUp" is-config="true" duration-ms="15936" started-at="2022-12-13T21:10:45 GMT" finished-at="2022-12-13T21:11:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.ultimaqa.courses.testsuite.HomePageTest@18bf3d14]" name="inIt" is-config="true" duration-ms="91" started-at="2022-12-13T21:11:01 GMT" finished-at="2022-12-13T21:11:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.ultimaqa.courses.testsuite.HomePageTest@18bf3d14]" name="userShouldNavigateToLoginPageSuccessfully" duration-ms="5112" started-at="2022-12-13T21:11:01 GMT" finished-at="2022-12-13T21:11:06 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click On SignInLink:[[ChromeDriver: chrome on WINDOWS (19a7bbeb5af971b930e42d8f1368ea90)] -> xpath: //a[contains(text(),'Sign In')]]]]>
+            </line>
+            <line>
+              <![CDATA[Verify Text Message: [[ChromeDriver: chrome on WINDOWS (19a7bbeb5af971b930e42d8f1368ea90)] -> xpath: //h2[contains(text(),'Welcome Back!')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ultimaqa.courses.testsuite.HomePageTest@18bf3d14]" name="tearDown" is-config="true" duration-ms="1910" started-at="2022-12-13T21:11:06 GMT" finished-at="2022-12-13T21:11:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ultimaqa.courses.testsuite.HomePageTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- testsuite -->
+</testng-results>

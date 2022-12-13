@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Test Suite" verbose="1">
+    <groups>
+        <run>
+           <include name="sanity"/>
+           <include name="regression"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="com.ultimaqa.courses.customlisteners.CustomListeners"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="Sanity Test">
+        <classes>
+            <class name="com.ultimaqa.courses.testsuite.HomePageTest"/>
+            <class name="com.ultimaqa.courses.testsuite.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
